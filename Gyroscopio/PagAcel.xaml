@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gyroscopio.PagAcel"
+             Title="PagAcel">
+    <VerticalStackLayout>
+        <Label 
+            x:Name="acelx"
+            Text="x="
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="acely"
+            Text="y="
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="acelz"
+            Text="z="
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            Text="Iniciar"
+            Clicked="btiniciar"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />
+        <Button
+            Text="Parar"
+            Clicked="btparar"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
